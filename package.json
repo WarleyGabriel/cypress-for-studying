@@ -1,0 +1,39 @@
+{
+  "name": "semana-agilizei",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open:mocha": "npx cypress open",
+    "cy:open:cucumber": "npx cypress open --config-file cypress-cucumber.json",
+    "cy:run:mocha": "npm run cy:report:clean && npx cypress run",
+    "cy:run:cucumber": "npm run cy:report:clean && npx cypress run --config-file cypress-cucumber.json --spec **/All.features",
+    "cy:report:merge": "mochawesome-merge > ./mochawesome-report/full_report.json",
+    "cy:report:mocha": "marge ./mochawesome-report/full_report.json",
+    "cy:report:clean": "rm -rf mochawesome-report/** cucumber-reporter/cucumber-json/** cucumber-reporter/result/**",
+    "cy:report:cucumber": "node cucumber-reporter/reporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chance": "^1.1.7",
+    "cucumber-html-reporter": "^5.2.0",
+    "cypress": "^4.11.0",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "cypress-file-upload": "^4.0.7",
+    "cypress-multi-reporters": "^1.4.0",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.1.0",
+    "mochawesome-report-generator": "^5.1.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cucumber-reporter/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
