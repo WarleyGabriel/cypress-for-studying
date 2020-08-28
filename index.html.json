@@ -1,0 +1,152 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Cadastro",
+    "line": 1,
+    "id": "cadastro",
+    "tags": [],
+    "uri": "cadastro.feature",
+    "elements": [
+      {
+        "id": "cadastro;cadastro-de-novo-usuário",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Cadastro de novo usuário",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "eu acesso o site",
+            "result": {
+              "status": "passed",
+              "duration": 11272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "e informo os dados de cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 4955000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "eu clico para salvar o cadastro",
+            "result": {
+              "status": "passed",
+              "duration": 255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "sistema apresenta usuário cadastrado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 8690000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Listagem",
+    "line": 1,
+    "id": "listagem",
+    "tags": [],
+    "uri": "listagem.feature",
+    "elements": [
+      {
+        "id": "listagem;listagem-sem-registros",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Listagem sem registros",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que o site não possui registros",
+            "result": {
+              "status": "passed",
+              "duration": 26102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "eu acessar a Listagem",
+            "result": {
+              "status": "passed",
+              "duration": 2946000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "sistema deve exibir a listagem vazia",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "listagem;listagem-com-registros",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Listagem com registros",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "que o site possui apenas um registro",
+            "result": {
+              "status": "passed",
+              "duration": 536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "eu acessar a Listagem",
+            "result": {
+              "status": "passed",
+              "duration": 2506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "sistema deve exibir apenas um registro na listagem",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
