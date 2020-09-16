@@ -22,7 +22,7 @@
             "name": "eu acesso o site",
             "result": {
               "status": "passed",
-              "duration": 12145000000
+              "duration": 9660000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "e informo os dados de cadastro",
             "result": {
               "status": "passed",
-              "duration": 5326000000
+              "duration": 4406000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "eu clico para salvar o cadastro",
             "result": {
               "status": "passed",
-              "duration": 342000000
+              "duration": 287000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "sistema apresenta usuário cadastrado com sucesso",
             "result": {
               "status": "passed",
-              "duration": 8247000000
+              "duration": 7199000000
             }
           }
         ]
@@ -82,7 +82,7 @@
             "name": "que o site não possui registros",
             "result": {
               "status": "passed",
-              "duration": 26973000000
+              "duration": 22417000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "eu acessar a Listagem",
             "result": {
               "status": "passed",
-              "duration": 3155000000
+              "duration": 1902000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "sistema deve exibir a listagem vazia",
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 30000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "que o site possui apenas um registro",
             "result": {
               "status": "passed",
-              "duration": 212000000
+              "duration": 343000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "eu acessar a Listagem",
             "result": {
               "status": "passed",
-              "duration": 1787000000
+              "duration": 1598000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "sistema deve exibir apenas um registro na listagem",
             "result": {
               "status": "passed",
-              "duration": 149000000
+              "duration": 81000000
             }
           }
         ]
