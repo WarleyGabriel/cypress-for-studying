@@ -23,6 +23,7 @@ context("Listagem", () => {
       status: 200,
       response: "fx:webtable-get-unico",
     }).as("getNewTable");
+
     cy.visit("WebTable.html");
 
     cy.get("div[role=row] div[role=gridcell]")
